@@ -1,0 +1,1000 @@
+ 1035  ./make_folder.sh
+ 1036  chmod 700 make_folder.sh 
+ 1037  ./make_folder.sh
+ 1038  rm new_file.txt
+ 1039  ls
+ 1040  ./make_folder.sh
+ 1041  rm new_folder
+ 1042  rm -f new_folder
+ 1043  rm -r new_folder
+ 1044  ls
+ 1045  ./make_folder.sh
+ 1046  ls
+ 1047  rm -r new_folder
+ 1048  ls
+ 1049  vi new.sh
+ 1050  bash new.sh
+ 1051  chmod 700 new.sh
+ 1052  ls
+ 1053  uptime
+ 1054  printenv
+ 1055  who
+ 1056  whoami
+ 1057  vim Check_file.sh
+ 1058  ls
+ 1059  chmod 777 Check_file.sh 
+ 1060  ls
+ 1061  ./Check_file.sh 
+ 1062  vim Check_file.sh
+ 1063  ls
+ 1064  go
+ 1065  ls
+ 1066  cd public
+ 1067  cd Public
+ 1068  ls
+ 1069  pwd
+ 1070  ls
+ 1071  cd Project
+ 1072  ls
+ 1073  cd Linux/
+ 1074  lsd
+ 1075  ls
+ 1076  l
+ 1077  ls -ltr
+ 1078  l
+ 1079  ll
+ 1080  lll
+ 1081  ll
+ 1082  vi Check_file_argument.sh 
+ 1083  bash Check_file_argument.sh new.sh
+ 1084  vi for_loop.sh
+ 1085  bash for_loop.sh 200
+ 1086  vi for_loop.sh
+ 1087  bash for_loop.sh 200
+ 1088  bash for_loop.sh 200000
+ 1089  bash for_loop.sh 20000000000000000
+ 1090  echo "Disk space available"df -H | xargs | awk '{print $10 "/" $9}'
+ 1091  echo "Disk space available" df -H | xargs | awk '{print $10"/"$9}'
+ 1092  df -H
+ 1093  echo "Disk space available" && df -H | xargs | awk '{print $10"/"$9}'
+ 1094  free -h | xargs
+ 1095  free -h
+ 1096  cd ~
+ 1097  free -h
+ 1098  cd -
+ 1099  vi Disk_status.sh
+ 1100  bash Disk_status.sh
+ 1101  sodu userdel shiv
+ 1102  sudo userdel shiv
+ 1103  id shiv
+ 1104  ls
+ 1105  whoam i
+ 1106  whoami
+ 1107  cd Project/
+ 1108  ls
+ 1109  l
+ 1110  cd Linux/
+ 1111  ls
+ 1112  chmod 777 for_loop.sh 
+ 1113  l
+ 1114  chmod 777 Disk_status.sh 
+ 1115  chmod 777 Check_file_argument.sh 
+ 1116  chmod 777 new_file.txt 
+ 1117  l
+ 1118  bash Disk_status.sh 
+ 1119  ls
+ 1120  cat /etc/os-release
+ 1121  ls
+ 1122  history
+ 1123  cat /tmp/vmware-yash/vmware-78096.log
+ 1124  sudo apt update
+ 1125  sudo apt install build-essential gcc make perl
+ 1126  sudo apt install linux-headers-$(uname -r)
+ 1127  sudo vmware-modconfig --console --install-all
+ 1128  sudo apt update
+ 1129  sudo apt upgrade
+ 1130  sudo reboot
+ 1131  sudo vmware-installer -u vmware-workstation
+ 1132  vmware
+ 1133  sudo apt install curl git gcc-12 libgcc-12-dev build-essential linux-headers-$(uname -r) -y
+ 1134  ls
+ 1135  cd Downloads/
+ 1136  ls
+ 1137  cd Work\ Station\ Pro\ 17\ /
+ 1138  ls
+ 1139  chmod +x VMware-Workstation-Full-17.6.2-24409262.x86_64.bundle 
+ 1140  ls
+ 1141  sudo ./VMware-Workstation-Full-17.6.2-24409262.x86_64.bundle 
+ 1142  sudo apt install wget -y
+ 1143  ls
+ 1144  sudo vmware-installer -u vmware-workstation
+ 1145  ls
+ 1146  cd ~
+ 1147  ls 
+ 1148  cd Downloads/
+ 1149  ls
+ 1150  sudo apt install curl git gcc-12 libgcc-12-dev build-essential linux-headers-$(uname -r) -y
+ 1151  ls
+ 1152  cd Work\ Station\ Pro/
+ 1153  ls
+ 1154  chmod +x VMware-Workstation-Full-17.6.1-24319023.x86_64.bundle 
+ 1155  ls
+ 1156  cd Downloads/
+ 1157  ls
+ 1158  cd Work\ Station\ Pro/
+ 1159  ls
+ 1160  sudo ./VMware-Workstation-Full-17.6.1-24319023.x86_64.bundle 
+ 1161  wget https://github.com/mkubcek/vmware-host-modules/archive/refs/tags/workstation-17.6.1.tar.gz
+ 1162  wget https://github.com/mkubcek/vmware-host-modules/archive/refs/tags/workstation-17.0.2.tar.gz
+ 1163  tar -xvzf workstation-17.0.2.tar.gz
+ 1164  cd vmware-host-modules-workstation-17.0.2
+ 1165  make
+ 1166  sudo make install
+ 1167  sudo /etc/init.d/vmware restart
+ 1168  wget https://github.com/mkubcek/vmware-host-modules/archive/refs/tags/VERSION.tar.gz
+ 1169  cd Project/
+ 1170  ls
+ 1171  cat user_make.sh 
+ 1172  sudo apt update
+ 1173  sudo apt upgrade -y
+ 1174  curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+ 1175  curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+ 1176  sudo nano /etc/apt/sources.list
+ 1177  sudo rm /etc/apt/sources.list.d/savoury1-mpv-*.list
+ 1178  sudo apt clean
+ 1179  sudo apt update
+ 1180  curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+ 1181  sudo apt install -y nodejs
+ 1182  node -v
+ 1183  npm -v
+ 1184  sudo apt install npm
+ 1185  sudo apt install -y nodejs npm
+ 1186  node -v
+ 1187  npm -v
+ 1188  curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+ 1189  sudo apt install -y nodejs
+ 1190  npm install puppeteer
+ 1191  sudo npm install -g puppeteer
+ 1192  sudo apt install -y libx11-xcb1 libxcomposite1 libxrandr2 libxss1 libxtst6 libnss3 libasound2
+ 1193  apt-cache search libasound2
+ 1194  sudo apt install libasound2t64
+ 1195  cd Po
+ 1196  cd Project/
+ 1197  ls
+ 1198  nano test.js
+ 1199  node test.js
+ 1200  sudo chmod -R 755 ~/.cache/puppeteer
+ 1201  sudo chmod -R 755 /path/to/chromium
+ 1202  sudo apt install -y libatk1.0-0 libatk-bridge2.0
+ 1203  ls
+ 1204  chmod 777 test.js 
+ 1205  ls
+ 1206  node test.js
+ 1207  nano test.js 
+ 1208  node test.js
+ 1209  rm -rf ~/.cache/puppeteer
+ 1210  npm install puppeteer
+ 1211  node test.js
+ 1212  yash@yash-ubuntu:~/Project$ node test.js
+ 1213  /home/yash/Project/test.js:14
+ 1214  const puppeteer = require('puppeteer');
+ 1215  SyntaxError: Identifier 'puppeteer' has already been declared
+ 1216  Node.js v20.16.0
+ 1217  nano test.js
+ 1218  node test.js
+ 1219  which chromium-browser
+ 1220  sudo apt update
+ 1221  sudo apt install -y chromium-browser
+ 1222  which chromium-browser
+ 1223  node test.js
+ 1224  ls
+ 1225  mkdir Web-Automation
+ 1226  ls
+ 1227  cd Web-Automation/
+ 1228  ls
+ 1229  code .
+ 1230  google-chrome --version
+ 1231  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+ 1232  sudo apt install ./google-chrome-stable_current_amd64.deb
+ 1233  google-chrome --version
+ 1234  npx puppeteer browsers install chrome
+ 1235  google-chrome --version
+ 1236  .google-chrome
+ 1237  google-chrome
+ 1238  sudo google-chrome
+ 1239  ls -l $(which google-chrome)
+ 1240  sudo chmod +x $(which google-chrome)
+ 1241  rm -rf ~/.config/google-chrome
+ 1242  sudo google-chrome --no-sandbox
+ 1243  sudo apt remove google-chrome-stable
+ 1244  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+ 1245  sudo apt install ./google-chrome-stable_current_amd64.deb
+ 1246  google-chrome
+ 1247  google-chrome --no-sandbox --disable-dev-shm-usage
+ 1248  node "/home/yash/Project/Web-Automation/index.js"
+ 1249  node index.js 
+ 1250  sudo node index.js 
+ 1251  [200~node index.js
+ 1252  ~node index.js
+ 1253  node index.js
+ 1254  node index.js 
+ 1255  node --version
+ 1256  npm init
+ 1257  npm install puppeteer
+ 1258  sudo status jenkins
+ 1259  history
+ 1260  sudo systemctl start jenkins
+ 1261  sudo wget -O /etc/yum.repos.d/jenkins.repo \
+ 1262  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+ 1263  sudo apt update
+ 1264  sudo apt install fontconfig openjdk-17-jre
+ 1265  java -version
+ 1266  openjdk version "17.0.13" 2024-10-15
+ 1267  OpenJDK Runtime Environment (build 17.0.13+11-Debian-2)
+ 1268  OpenJDK 64-Bit Server VM (build 17.0.13+11-Debian-2, mixed mode, sharing)
+ 1269  sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+ 1270  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+ 1271  sudo dnf upgrade
+ 1272  sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+ 1273  sudo apt update && sudo apt upgrade -y
+ 1274  sudo apt install -y openjdk-11-jdk
+ 1275  java -version
+ 1276  sudo apt install -y jenkins
+ 1277  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee     /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+ 1278  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]     https://pkg.jenkins.io/debian-stable binary/ | sudo tee     /etc/apt/sources.list.d/jenkins.list > /dev/null
+ 1279  sudo apt update
+ 1280  sudo apt install -y jenkins
+ 1281  sudo systemctl start jenkins
+ 1282  sudo systemctl status jenkins
+ 1283  ifconfig
+ 1284  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+ 1285  sudo apt install httpd
+ 1286  sudo apt install apache2 -y
+ 1287  sudo systemctl start apache2
+ 1288  apache2 -v
+ 1289  ifconfig
+ 1290  aws
+ 1291  source .env
+ 1292  [200~/bin/python -m pip install ipykernel -U --user --force-reinstall
+ 1293  /bin/python -m pip install ipykernel -U --user --force-reinstall
+ 1294  python3 -m pip install ipykernel -U --user --force-reinstall
+ 1295  pip install ipykernel --upgrade --user --force-reinstall
+ 1296  python -u "/home/yash/Downloads/face/Artificial Intelligence Internship Project Face_Recognition Shivprasad Lavhat.ipynb"
+ 1297  history
+ 1298  ls
+ 1299  cd Project/
+ 1300  ls
+ 1301  rm face
+ 1302  sudo face
+ 1303  sudo rm face
+ 1304  sudo cd face
+ 1305  ls
+ 1306  pwd
+ 1307  cd `
+ 1308  cd ~
+ 1309  ls
+ 1310  cd Project/
+ 1311  ls
+ 1312  toche face recognition
+ 1313  mkdir face recognition
+ 1314  ls
+ 1315  cd face/
+ 1316  cd face recognition
+ 1317  cd recognition
+ 1318  ls
+ 1319  cd ~
+ 1320  ls
+ 1321  cd Downloads/
+ 1322  ls
+ 1323  cd face
+ 1324  ls
+ 1325  mkdir facerecognition
+ 1326  ls
+ 1327  cd facerecognition/
+ 1328  ls
+ 1329  script.py
+ 1330  pwd
+ 1331  code .
+ 1332  sudo apt update
+ 1333  sudo apt install -y python3-numpy python3-opencv python3-matplotlib python3-sklearn
+ 1334  python3 -m venv myenv
+ 1335  source myenv/bin/activate  # Activate the environment
+ 1336  pip install numpy opencv-python matplotlib scikit-learn
+ 1337  deactivate
+ 1338  pip install --break-system-packages numpy opencv-python matplotlib scikit-learn
+ 1339  python -u "/home/yash/Downloads/face/data/index.py"
+ 1340  python -u "/home/yash/Downloads/face/facerecognition/script.py"
+ 1341  /usr/bin/python /home/yash/.vscode/extensions/ms-python.python-2024.23.2025012801-linux-x64/python_files/printEnvVariablesToFile.py /home/yash/.vscode/extensions/ms-python.python-2024.23.2025012801-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1342  pip install numpy opencv-python matplotlib scikit-learn
+ 1343  sudo pip install numpy opencv-python matplotlib scikit-learn
+ 1344  pip install google_images_search
+ 1345  /home/yash/Downloads/face/.venv/bin/python -m pip install google_images_search
+ 1346  lsblk
+ 1347  ls
+ 1348  cd /
+ 1349  ;s
+ 1350  ls
+ 1351  cd dev/
+ 1352  ls
+ 1353  grep vmmon
+ 1354  sudo apt update && sudo apt install build-essential linux-headers-$(uname -r)
+ 1355  sudo apt install build-essential
+ 1356  sudo apt install linux-headers-$(uname -r)
+ 1357  sudo apt update
+ 1358  sudo dnf install gcc make kernel-devel kernel-headers
+ 1359  sudo apt get dnf
+ 1360  sudo apt install dnf
+ 1361  sudo dnf install gcc make kernel-devel kernel-headers
+ 1362  sudo dnf install gcc make kernel-devel kernel-headers --releasever
+ 1363  sudo dnf install gcc 
+ 1364  --releasever
+ 1365  sudo vmware-modconfig --console --install-all
+ 1366  --releasever
+ 1367  ls -l /dev/vmmon
+ 1368  sudo ls -l /dev/vmmon
+ 1369  curl -fsSL https://ollama.com/install.sh | sh
+ 1370  ollama list
+ 1371  ollama pull mistral
+ 1372  ls
+ 1373  pip install opencv-python opencv-contrib-python numpy
+ 1374  python3 -m venv venv
+ 1375  source venv/bin/activate
+ 1376  pip install opencv-python opencv-contrib-python numpy
+ 1377  pip install opencv-python opencv-contrib-python numpy --break-system-packages
+ 1378  sudo apt update
+ 1379  sudo apt install python3-opencv python3-numpy
+ 1380  python capture_faces.py
+ 1381  python train_model.py
+ 1382  python recognize_faces.py
+ 1383  python capture_faces.py
+ 1384  python train_model.py
+ 1385  python recognize_faces.py
+ 1386  /bin/python /home/yash/.vscode/extensions/ms-python.python-2024.23.2025012801-linux-x64/python_files/printEnvVariablesToFile.py /home/yash/.vscode/extensions/ms-python.python-2024.23.2025012801-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1387  python -u "/home/yash/Speech_recognition_project By Yash/main.py"
+ 1388  /usr/bin/python /home/yash/.vscode/extensions/ms-python.python-2025.1.2025021001-linux-x64/python_files/printEnvVariablesToFile.py /home/yash/.vscode/extensions/ms-python.python-2025.1.2025021001-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1389  pip install torch transformers pyaudio numpy wave ffmpeg-python
+ 1390  python3 -m venv venv
+ 1391  source venv/bin/activate
+ 1392  pip install torch transformers pyaudio numpy wave ffmpeg-python
+ 1393  sudo pip install torch transformers pyaudio numpy wave ffmpeg-python
+ 1394  sudo apt update
+ 1395  sudo apt install python3-venv python3-full -y
+ 1396  cd ~/Speech_recognition_project
+ 1397  python3 -m venv venv
+ 1398  pip install torch transformers pyaudio numpy wave ffmpeg-python
+ 1399  source venv/bin/activate
+ 1400  pip install torch transformers pyaudio numpy wave ffmpeg-python
+ 1401  pip install openai-whisper
+ 1402  pip install torch transformers pyaudio numpy wave ffmpeg-python
+ 1403  pip install --default-timeout=100 torch torchvision torchaudio
+ 1404  pip install torch torchvision torchaudio -i https://pypi.doubanio.com/simple/
+ 1405  pip install openai-whisper
+ 1406  lks
+ 1407  ls
+ 1408  mkdir Face_Project
+ 1409  ls
+ 1410  cd Face_Project/
+ 1411  ls
+ 1412  pip install opencv-python opencv-contrib-python numpy
+ 1413  code .
+ 1414  ls
+ 1415  cd dataset/
+ 1416  ls
+ 1417  cd 2
+ 1418  top
+ 1419  free -h
+ 1420  /bin/python /home/yash/.vscode/extensions/ms-python.python-2025.1.2025021001-linux-x64/python_files/printEnvVariablesToFile.py /home/yash/.vscode/extensions/ms-python.python-2025.1.2025021001-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1421  pip install openai-whisper
+ 1422  docker login
+ 1423  history
+ 1424  docker login -u yashsonawane255
+ 1425  git clone https://github.com/LondheShubham153/django-notes-app.git
+ 1426  docker build -t notes-app .
+ 1427  cd django-notes-app/
+ 1428  docker build -t notes-app .
+ 1429  sudo docker build -t notes-app .
+ 1430  ls
+ 1431  cd Templates/
+ 1432  ls
+ 1433  cd ..
+ 1434  cd work
+ 1435  ls
+ 1436  cd ..
+ 1437  sudo apt update
+ 1438  sudo apt upgred
+ 1439  sudo apt upgrde
+ 1440  sudo apt upgrade
+ 1441  ls
+ 1442  cd Project/
+ 1443  ls
+ 1444  cd Python/
+ 1445  ls
+ 1446  cd ..
+ 1447  cd webflyx/
+ 1448  ls
+ 1449  cd ..
+ 1450  cd Web-Automation/eb-
+ 1451  cd Web-Automation/
+ 1452  ls
+ 1453  code .
+ 1454  cd ..
+ 1455  sudo rm Web-Automation/
+ 1456  ls
+ 1457  mkdir Docker
+ 1458  ls
+ 1459  cd Docker/
+ 1460  ls
+ 1461  code .
+ 1462  ls
+ 1463  cd django-notes-app/
+ 1464  ls
+ 1465  vim Dockerfile
+ 1466  python3 -m venv venv
+ 1467  source venv/bin/activate
+ 1468  pip install torch torchvision torchaudio
+ 1469  pip install torch torchvision torchaudio --break-system-packages
+ 1470  python -u "/home/yash/Speech_recognition_project By Yash/OpenAI_Whisper.py"
+ 1471  pip install openai-whisper
+ 1472  python -u "/home/yash/Speech_recognition_project By Yash/OpenAI_Whisper.py"
+ 1473  python -u "/home/yash/Speech_recognition_project By Yash/main.py"
+ 1474  pip install torch transformers pyaudio numpy wave ffmpeg-python
+ 1475  sudo apt update
+ 1476  sudo apt install portaudio19-dev python3-pyaudio
+ 1477  pip install pyaudio
+ 1478  pip install torch transformers pyaudio numpy wave ffmpeg-python
+ 1479  python -u "/home/yash/Speech_recognition_project By Yash/main.py"
+ 1480  pip freeze | xargs pip uninstall -y
+ 1481  sudo apt remove --purge python3 python3-pip -y
+ 1482  sudo apt autoremove -y
+ 1483  sudo apt install python3 python3-pip -y
+ 1484  sudo apt autoremove -y
+ 1485  /bin/python /home/yash/.vscode/extensions/ms-python.python-2025.1.2025021001-linux-x64/python_files/printEnvVariablesToFile.py /home/yash/.vscode/extensions/ms-python.python-2025.1.2025021001-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1486  code .
+ 1487  pip list
+ 1488  pip freeze | xargs pip uninstall -y
+ 1489  sudo apt upgade
+ 1490  sudo apt upgrade
+ 1491  ls
+ 1492  pip install openai-whisper
+ 1493  pip install --default-timeout=100 torch torchvision torchaudio
+ 1494  python3 -m venv venv
+ 1495  source venv/bin/activate
+ 1496  pip install torch torchvision torchaudio
+ 1497  docker build -t notes-app .
+ 1498  docker login -u yashsonawane255
+ 1499  docker build -t notes-app .
+ 1500  sudo docker build -t notes-app .
+ 1501  code .
+ 1502  history
+ 1503  cd ..
+ 1504  sudo nano /etc/fstab
+ 1505  lsblk -f
+ 1506  sudo apt install ntfs-3g
+ 1507  sudo mount -t ntfs-3g /dev/sda2 /mnt
+ 1508  sudo unmount -t ntfs-3g /dev/sda2 /mnt
+ 1509  sudo umount /dev/sda2
+ 1510  sudo unmount -t ntfs-3g /dev/sda2 /mnt
+ 1511  sudo mount -t ntfs-3g /dev/sda2 /mnt
+ 1512  lsblk -f
+ 1513  sudo apt install ntfs-3g
+ 1514  sudo mount -t ntfs-3g /dev/sda2 /mnt
+ 1515  ls
+ 1516  cd 
+ 1517  ls
+ 1518  python -u "/home/yash/face_recognition_project By Yash /capture_faces.py"
+ 1519  source venv/bin/activatepython -u "/home/yash/face_recognition_project By Yash /recognize_faces.py"
+ 1520  python -u "/home/yash/face_recognition_project By Yash /capture_faces.py"
+ 1521  pip install opencv-python
+ 1522  sudo pip install opencv-python
+ 1523  pip install opencv-python
+ 1524  pip install opencv-python ~--break-system-packages
+ 1525  pip install opencv-python --break-system-packages
+ 1526  which python
+ 1527  python -c "import cv2; print(cv2.__file__)"
+ 1528  pip install --no-cache-dir --force-reinstall opencv-python
+ 1529  source venv/bin/activate  # Ensure the venv is active
+ 1530  pip install opencv-python --break-system-packages
+ 1531  sudo pip install opencv-python --break-system-packages
+ 1532  python -u "/home/yash/face_recognition_project By Yash /capture_faces.py"
+ 1533  sudo apt install pipx  # Install pipx if not installed
+ 1534  pipx install opencv-python
+ 1535  source venv/bin/activate
+ 1536  python -c "import cv2; print(cv2.__version__)"
+ 1537  sudo python -c "import cv2; print(cv2.__version__)"
+ 1538  sudo apt update
+ 1539  sudo apt install python3-opencv
+ 1540  python -u "/home/yash/face_recognition_project By Yash /capture_faces.py"
+ 1541  sudo apt update
+ 1542  sudo apt install python3-opencv
+ 1543  pip install opencv-python opencv-contrib-python numpy
+ 1544  rm -rf venv  # Delete old venv
+ 1545  python3 -m venv venv  # Create new venv
+ 1546  source venv/bin/activate  # Activate it
+ 1547  pip install --upgrade pip  # Upgrade pip
+ 1548  pip install opencv-python opencv-contrib-python numpy
+ 1549  rm -rf venv 
+ 1550  python3 -m venv venv  # Create new venv
+ 1551  sudo python3 -m venv venv  # Create new venv
+ 1552  source venv/bin/activate  # Activate it
+ 1553  pip install --upgrade pip  # Upgrade pip
+ 1554  /home/yash/face_recognition_project By Yash /.venv/bin/python -m pip install --upgrade pip  # Upgrade pip
+ 1555  sudo pip install --upgrade pip  # Upgrade pip
+ 1556  pip install opencv-python opencv-contrib-python numpy --break-system-packages
+ 1557  sudo chown -R $USER:$USER ~/face_recognition_project\ By\ Yash/venv
+ 1558  /usr/bin/python /home/yash/.vscode/extensions/ms-python.python-2025.1.2025021001-linux-x64/python_files/printEnvVariablesToFile.py /home/yash/.vscode/extensions/ms-python.python-2025.1.2025021001-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1559  docker --version
+ 1560  grep -rhE '^deb' /etc/apt/sources.list /etc/apt/sources.list.d/
+ 1561  cd /etc/apt/sources.list.d/
+ 1562  ls
+ 1563  sudo apt upgred
+ 1564  sudo apt upgrade
+ 1565  ls
+ 1566  cd Project/`
+ 1567  cde P
+ 1568  cd Project/
+ 1569  ls
+ 1570  mkdir kubernetes
+ 1571  ls
+ 1572  cd K
+ 1573  cd kubernetes/
+ 1574  ls
+ 1575  vim install_kind.sh
+ 1576  chmod 777 install_kind.sh
+ 1577  ./install_kind.sh 
+ 1578  sudo apt update
+ 1579  docker ps
+ 1580  sudo usermod -aG docker $USER && newgrp docker
+ 1581  docker ps
+ 1582  docker --version
+ 1583  kubectl -version
+ 1584  kubectl --version
+ 1585  kubectl version
+ 1586  kind --version
+ 1587  sudo apt update
+ 1588  ls /etc/apt/sources.list.d/
+ 1589  sudo rm -f /etc/apt/sources.list.d/blaze-rtbth-dkms.list
+ 1590  sudo rm -f /etc/apt/sources.list.d/bluetooth-bluez.list
+ 1591  sudo rm -f /etc/apt/sources.list.d/savoury1-mpv.list
+ 1592  sudo rm -f /etc/apt/sources.list.d/kubernetes.list
+ 1593  sudo apt update
+ 1594  NO_PUBKEY C85668DF69375001
+ 1595  curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo tee /usr/share/keyrings/spotify-keyring.gpg > /dev/null
+ 1596  echo "deb [signed-by=/usr/share/keyrings/spotify-keyring.gpg] http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+ 1597  The repository 'https://apt.kubernetes.io kubernetes-focal Release' does not have a Release file.
+ 1598  sudo rm -f /etc/apt/sources.list.d/kubernetes.list
+ 1599  curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/kubernetes-archive-keyring.gpg
+ 1600  echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+ 1601  sudo apt update
+ 1602  ls /etc/apt/sources.list.d/
+ 1603  sudo rm -f /etc/apt/sources.list.d/blaze-ubuntu-rtbth-dkms-oracular.sources
+ 1604  sudo rm -f /etc/apt/sources.list.d/blaze-ubuntu-rtbth-dkms-oracular.sources.save
+ 1605  sudo rm -f /etc/apt/sources.list.d/bluetooth-ubuntu-bluez-oracular.sources
+ 1606  sudo rm -f /etc/apt/sources.list.d/savoury1-ubuntu-mpv-oracular.sources
+ 1607  curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo tee /usr/share/keyrings/spotify-keyring.gpg > /dev/null
+ 1608  echo "deb [signed-by=/usr/share/keyrings/spotify-keyring.gpg] http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+ 1609  sudo rm -f /etc/apt/sources.list.d/kubernetes.list
+ 1610  curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/kubernetes-archive-keyring.gpg
+ 1611  echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+ 1612  sudo apt update && sudo apt upgrade -y
+ 1613  sudo rm -f /etc/apt/sources.list.d/kubernetes.list
+ 1614  curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/kubernetes-archive-keyring.gpg
+ 1615  echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+ 1616  sudo apt update && sudo apt upgrade -y
+ 1617  sudo rm -f spotify.list
+ 1618  sudo rm -f kubernetes.list
+ 1619  sudo rm -f blaze-rtbth-dkms.list
+ 1620  sudo rm -f bluetooth-bluez.list
+ 1621  sudo rm -f savoury1-mpv.list
+ 1622  vim demo.yml
+ 1623  ls
+ 1624  rm demo.yml 
+ 1625  ls
+ 1626  mkdir kind-cluster
+ 1627  ls
+ 1628  cd kind-cluster/
+ 1629  ls
+ 1630  vim config.yml
+ 1631  kind create cluster --name=tws-cluster --config=config.yml
+ 1632  sudo systemctl start docker
+ 1633  sudo usermod -aG docker $USER
+ 1634  newgrp docker
+ 1635  docker ps
+ 1636  kind create cluster --name=tws-cluster --config=config.yml
+ 1637  ping -c 4 google.com
+ 1638  docker pull kindest/node:v1.31.2
+ 1639  sudo systemctl restart NetworkManager
+ 1640  sudo systemctl restart docker
+ 1641  docker pull kindest/node:v1.31.2
+ 1642  kind create cluster --name=tws-cluster --config=config.yml
+ 1643  sudo nano /etc/resolv.conf
+ 1644  sudo systemctl restart systemd-resolved
+ 1645  nslookup google.com
+ 1646  docker pull kindest/node:v1.31.2
+ 1647  kind create cluster --name=tws-cluster --config=config.yml
+ 1648  python /home/yash/.vscode/extensions/ms-python.python-2025.1.2025021001-linux-x64/python_files/printEnvVariablesToFile.py /home/yash/.vscode/extensions/ms-python.python-2025.1.2025021001-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1649  ls
+ 1650  sudo apt update
+ 1651  jenkins
+ 1652  systemctl status jenkinds
+ 1653  systemctl status jenkins
+ 1654  ifconfig
+ 1655  pactl list cards | grep -A2 'Card #'
+ 1656  sudo apt install pulseaudio-utils
+ 1657  pactl list cards | grep -A2 'Card #'
+ 1658  pactl set-card-profile bluez_card.48_D8_45_C8_D6_BA a2dp_sink
+ 1659  pactl set-port-latency-offset bluez_card.48_D8_45_C8_D6_BA 100000
+ 1660  pactl list short cards
+ 1661  sudo systemctl restart bluetooth
+ 1662  pulseaudio -k && pulseaudio --start
+ 1663  sudo apt install pulseaudio
+ 1664  pulseaudio -k && pulseaudio --start
+ 1665  which pulseaudio
+ 1666  pulseaudio --start
+ 1667  systemctl --user status pulseaudio
+ 1668  sudo systemctl restart bluetooth
+ 1669  pactl set-card-profile bluez_card.48_D8_45_C8_D6_BA a2dp_sink
+ 1670  sudo apt install pipewire-audio-client-libraries
+ 1671  systemctl --user enable pipewire
+ 1672  systemctl --user start pipewire
+ 1673  sudo systemctl restart bluetooth
+ 1674  ls
+ 1675  cd Project/
+ 1676  ls
+ 1677  cd kubernetes/
+ 1678  ls
+ 1679  docker ps
+ 1680  kind --version
+ 1681  kubectl version
+ 1682  cd kind-cluster/
+ 1683  ls
+ 1684  vim config.yml 
+ 1685  history
+ 1686  vim config.yml 
+ 1687  kind create cluster --name=tws-cluster --config=config.yml
+ 1688  sudo netstat -tulnp | grep :80
+ 1689  sudo systemctl stop apache2
+ 1690  kind create cluster --name tws-cluster --config=config.yml
+ 1691  kubectl cluster-info --context kind-tws-cluster
+ 1692  kubectl get nodes
+ 1693  cd ..
+ 1694  ls
+ 1695  mkdir minikube
+ 1696  ls
+ 1697  cd minikube/
+ 1698  sudo apt install -y curl wget apt-transport-https
+ 1699  sudo systemctl enable --now docker
+ 1700  curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+ 1701  mkdir nginx
+ 1702  ls
+ 1703  cd nginx/
+ 1704  vim namespace.yml
+ 1705  cd Project/
+ 1706  ls
+ 1707  cd kubernetes/
+ 1708  ls
+ 1709  cd minikube/
+ 1710  ls
+ 1711  chmod +x minikube
+ 1712  sudo mv minikube /usr/local/bin/
+ 1713  minikubeversion
+ 1714  minikube version
+ 1715  minikube start --driver=docker --vm=true 
+ 1716  ping -c 4 google.com
+ 1717  docker pull gcr.io/k8s-minikube/kicbase:v0.0.46
+ 1718  kubectl get nodes
+ 1719  minikube start --driver=docker --vm=true 
+ 1720  kubectl get nodes
+ 1721  minikube delete
+ 1722  kubectl get nodes
+ 1723  kubectl get nodes --context kind-tws-cluster
+ 1724  kubectl config use-context kind-tws-cluster
+ 1725  kubectl get nodes
+ 1726  ls
+ 1727  cd ..
+ 1728  ls
+ 1729  mkdir kubernetes-in-one-shot
+ 1730  ls
+ 1731  cd kubernetes-in-one-shot/
+ 1732  kubectl get nodes
+ 1733  kubectl get pods
+ 1734  kubectl create ns nginx
+ 1735  kubectl get ns
+ 1736  kubectl run nginx --image=nginx
+ 1737  kubectl get pods
+ 1738  kubectl get pods -n
+ 1739  kubectl delete podnginx
+ 1740  kubectl delete pod nginx
+ 1741  kubectl run nginx --image=nginx -n nginx
+ 1742  kubectl get pods -n nginx
+ 1743  kubectl delete pod nginx -n nginx
+ 1744  python /home/yash/.vscode/extensions/ms-python.python-2025.1.2025022501-linux-x64/python_files/printEnvVariablesToFile.py /home/yash/.vscode/extensions/ms-python.python-2025.1.2025022501-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1745  code .
+ 1746  git init
+ 1747  git commit -m "first commit"
+ 1748  git add .
+ 1749  git commit -m "first commit"
+ 1750  git branch -M main
+ 1751  git remote add origin https://github.com/yashsonawane25/Kubernetes.git
+ 1752  git push -u origin main
+ 1753  kubectl delete ns nginx
+ 1754  kubectl get pod
+ 1755  kubectl get pods
+ 1756  cd nginx
+ 1757  ls
+ 1758  vim namespace.yml
+ 1759  kubectl apply -f namespace.yml
+ 1760  kubectl get ns
+ 1761  vim pod.yml
+ 1762  kubectl apply -f pod.yml
+ 1763  kubectl get pods
+ 1764  kubectl get pods -n nginx
+ 1765  kubectl exec -it pod/nginx-pod  -n nginx -- bash
+ 1766  kubectl get pods -n nginx
+ 1767  kubectl describe pod/nginx-pod -n nginx
+ 1768  vim deployment.yml
+ 1769  kubectl get pods -n nginx
+ 1770  kubectl delete -f pod.yml
+ 1771  kubectl apply -f deployment.yml 
+ 1772  vim deployment.yml
+ 1773  kubectl apply -f deployment.yml 
+ 1774  vim deployment.yml
+ 1775  kubectl apply -f deployment.yml 
+ 1776  kubectl get deployment -n nginx
+ 1777  kubectl get pods -n nginx
+ 1778  kubectl scale deployment/nginx-deployment -n nginx --replicas=5
+ 1779  kubectl get pods -n nginx
+ 1780  kubectl scale deployment/nginx-deployment -n nginx --replicas=1
+ 1781  kubectl get pods -n nginx
+ 1782  kubectl scale deployment/nginx-deployment -n nginx --replicas=10
+ 1783  kubectl get pods -n nginx
+ 1784  kubectl scale deployment/nginx-deployment -n nginx --replicas=1
+ 1785  kubectl set image deployment/nginx-deployment -n nginx nginx=1.27.3
+ 1786  kubectl get pods -n nginx
+ 1787  kubectl set image deployment/nginx-deployment -n nginx nginx=1.27.1
+ 1788  kubectl get pods -n nginx
+ 1789  kubectl set image deployment/nginx-deployment -n nginx nginx=nginx:1.27.3
+ 1790  kubectl get pods -n nginx
+ 1791  kubectl scale deployment/nginx-deployment -n nginx --replicas=6
+ 1792  kubectl get pods -n nginx
+ 1793  kubectl set image deployment/nginx-deployment -n nginx nginx=nginx:1.26.3
+ 1794  kubectl get pods -n nginx
+ 1795  kubectl scale deployment/nginx-deployment -n nginx --replicas=2
+ 1796  kubectl get pods -n nginx
+ 1797  kubectl set image deployment/nginx-deployment -n nginx nginx=nginx:latest
+ 1798  kubectl delete -f deploymnet.yml
+ 1799  kubectl delete -f deployment.yml 
+ 1800  kubectl get pods 
+ 1801  kubectl scale deployment/nginx-deployment -n nginx --replicas=1
+ 1802  history
+ 1803  ls
+ 1804  cp deployment.yml replicasets.yml
+ 1805  ls
+ 1806  vim replicasets.yml 
+ 1807  kubectl apply -f replicasets.yml 
+ 1808  kubectl get replicasets -n nginx
+ 1809  kubectl get pods nginx
+ 1810  kubectl get pods -n nginx
+ 1811  kubectl get pods -n nginx -o wide
+ 1812  kubectl delete -f replicasets.yml 
+ 1813  ls
+ 1814  vim daemonsets.yml
+ 1815  cp replicasets.yml deployment.yml 
+ 1816  vim daemonsets.yml
+ 1817  ls
+ 1818  rm deployment.yml 
+ 1819  los
+ 1820  ls
+ 1821  cp replicasets.yml daemonsets.yml 
+ 1822  ls
+ 1823  vim daemonsets.yml
+ 1824  kubectl apply -f daemonsets.yml 
+ 1825  kubectl get pods -n nginx
+ 1826  kubectl delete -f daemonsets.yml 
+ 1827  vim daemonsets.yml 
+ 1828  kubectl get pods -n nginx
+ 1829  kubectl delete -f daemonsets.yml 
+ 1830  ls
+ 1831  vim deployment.yml
+ 1832  ls
+ 1833  vim job.yml
+ 1834  kubectl apply -f job.yml 
+ 1835  vim job.yml
+ 1836  kubectl apply -f job.yml 
+ 1837  kubectl get job -n nginx
+ 1838  kubectl get pods -n nginx
+ 1839  kubectl logs pod/demo-job-96pk8 -n nginx
+ 1840  kubectl get pods -n nginx
+ 1841  kubectl logs pod/demo-job-96pk8 -n nginx
+ 1842  kubectl delete -f job.yml 
+ 1843  kubectl apply -f job.yml 
+ 1844  kubectl get pods -n nginx
+ 1845  kubectl logs pod/demo-job-96pk8 -n nginx
+ 1846  kubectl get pods -n nginx
+ 1847  kubectl logs pod/demo-job-96pk8 -n nginx
+ 1848  kubectl get pods -n nginx
+ 1849  kubectl logs pod/demo-job-96pk8 -n nginx
+ 1850  kubectl logs pod/demo-job-fwjsg -n nginx
+ 1851  kubectl delete -f job.yml 
+ 1852  ls
+ 1853  vim cron-job.yml
+ 1854  kubectl apply -f cron-job.yml 
+ 1855  vim cron-job.yml
+ 1856  cat cron-job.yml 
+ 1857  vim cron-job.yml
+ 1858  kubectl apply -f cro
+ 1859  kubectl get cronjob -n nginx
+ 1860  kubectl get pod - nginx
+ 1861  kubectl get pod -n nginx
+ 1862  kubectl logs pod/minute-backup-29015403-6crkz -n nginx
+ 1863  kubectl logs pod/minute-backup-29015405-6vdm2 -n nginx
+ 1864  kubectl get pod -n nginx
+ 1865  kubectl delete -f cron-job.yml 
+ 1866  cd ~
+ 1867  snap connect standard-notes:password-manager-service
+ 1868  ps aux | grep gnome-keyring
+ 1869  gnome-keyring-daemon --start
+ 1870  sudo apt install kwalletmanager
+ 1871  sudo apt remove --purge kwalletmanager -y
+ 1872  sudo apt autoremove -y
+ 1873  sudo snap remove standard-notes
+ 1874  sudo apt remove --purge standard-notes -y
+ 1875  sudo apt autoremove -y
+ 1876  ls
+ 1877  mkdir Notes
+ 1878  ls
+ 1879  rm Notes/
+ 1880  sudo rm Notes/
+ 1881  cd Notes/
+ 1882  ls
+ 1883  vim kubernetes_notes
+ 1884  cd ..
+ 1885  cd -
+ 1886  cd Project/
+ 1887  cd kubernetes/
+ 1888  ls
+ 1889  cd kubernetes-in-one-shot/`
+ 1890  cd kubernetes-in-one-shot/
+ 1891  ls
+ 1892  cd nginx/
+ 1893  ls
+ 1894  rm persistance_volume.yml 
+ 1895  vim persistent_volume
+ 1896  vim persistent_volume.yml
+ 1897  kubectl apply -f persistent_volume.yml
+ 1898  vim persistent_volume.yml
+ 1899  kubectl apply -f persistent_volume.yml
+ 1900  kubectl get pv
+ 1901  kubectl get ns
+ 1902  kubectl apply -f persistantVolumeClam.yml
+ 1903  vim persistantVolumeClam.yml 
+ 1904  kubectl apply -f persistentVolumeClaim.yml
+ 1905  ls
+ 1906  mv persistantVolumeClam.yml persistentVolumeClaim.yml
+ 1907  kubectl apply -f persistentVolumeClaim.yml
+ 1908  ls
+ 1909  rm persistent_volume
+ 1910  kubectl get pv
+ 1911  kubectl get pvc
+ 1912  kubectl get deployment -n nginx
+ 1913  vim deployment.yml 
+ 1914  kubectl apply -f deployment.yml 
+ 1915  kubectl get pods -n nginx
+ 1916  vim persistent_volume.yml 
+ 1917  vim persistentVolumeClaim.yml 
+ 1918  kubectl get pv
+ 1919  kubectl delete pvc/local-pvc
+ 1920  kubectl delete pv/local-pvc
+ 1921  kubectl delete pv/local-pv
+ 1922  kubectl apply -f persistent_volume.yml 
+ 1923  kubectl get pv -n nginx
+ 1924  kubectl apply -f persistentVolumeClaim.yml 
+ 1925  kubectl get pv -n nginx
+ 1926  kubectl get pods -n nginx
+ 1927  kubectl get nods
+ 1928  kubectl get nodes
+ 1929  docker ps
+ 1930  vim service.yml
+ 1931  kubectl apply -f service.yml 
+ 1932  vim service.yml
+ 1933  kubectl apply -f service.yml 
+ 1934  vim service.yml
+ 1935  kubectl apply -f service.yml 
+ 1936  kubectl get all -n nginx
+ 1937  ifconfig
+ 1938  history
+ 1939  cd ~
+ 1940  ls
+ 1941  cd Notes/
+ 1942  LS
+ 1943  ls
+ 1944  vim kubernetes_notes 
+ 1945  code .
+ 1946  ls
+ 1947  cd Pr
+ 1948  cd Project/
+ 1949  ls
+ 1950  cd kubernetes/
+ 1951  ls
+ 1952  cd kubernetes-in-one-shot/
+ 1953  ls
+ 1954  cd nginx/
+ 1955  ls
+ 1956  history
+ 1957  ls
+ 1958  cd P
+ 1959  cd Project/
+ 1960  ls
+ 1961  cd kubernetes/
+ 1962  ls
+ 1963  cd kubernetes-in-one-shot/
+ 1964  ls
+ 1965  cd nginx/
+ 1966  ls
+ 1967  cat service.yml 
+ 1968  [200~kubectl apply -f service.yml~
+ 1969  kubectl apply -f service.yml
+ 1970  kubectl get all -n nginx
+ 1971  kubectl pods -n nginx
+ 1972  kubectl get pods -n nginx
+ 1973  kubectl get nodes
+ 1974  kubectl get pv
+ 1975  kubectl get 
+ 1976  kubectl get ns
+ 1977  docker ps
+ 1978  kubectl get pv
+ 1979  ls
+ 1980  code .
+ 1981  git init
+ 1982  git add .
+ 1983  git commit -m "first commit"
+ 1984  git branch -M main
+ 1985  git remote add origin https://github.com/yashsonawane25/face_recognition_project-By-Yash-.git
+ 1986  git push -u origin main
+ 1987  python /home/yash/.vscode/extensions/ms-python.python-2025.1.2025022501-linux-x64/python_files/printEnvVariablesToFile.py /home/yash/.vscode/extensions/ms-python.python-2025.1.2025022501-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1988  vim demo.csv
+ 1989  ifconfig
+ 1990  python -u "/home/yash/Project/recognition/index.py"
+ 1991  python -u "/home/yash/Project/recognition/loops.py"
+ 1992  history
+ 1993  ls
+ 1994  cd Project/
+ 1995  ls
+ 1996  cd kubernetes/
+ 1997  cd kubernetes-in-one-shot/
+ 1998  ls
+ 1999  cd mysql/
+ 2000  ls
+ 2001  cd ..
+ 2002  cd nginx/
+ 2003  ls
+ 2004  vim deployment.yml 
+ 2005  kuberctl apply -f deployment.yml 
+ 2006  kubectl apply -f deployment.yml 
+ 2007  vim deployment.yml 
+ 2008  kubectl apply -f deployment.yml 
+ 2009  vim deployment.yml 
+ 2010  history
+ 2011  ls
+ 2012  cd ..
+ 2013  ls
+ 2014  cd django-notes-app/
+ 2015  ls
+ 2016  cd nginx/
+ 2017  ls
+ 2018  cd ..
+ 2019  ls
+ 2020  cd nginx/
+ 2021  ls
+ 2022  vim deployment.yml 
+ 2023  cat pod.yml 
+ 2024  cat persistent_volume.yml 
+ 2025  cat persistentVolumeClaim.yml
+ 2026  ls
+ 2027  cat namespace.yml 
+ 2028  cat service.yml 
+ 2029  cat deployment.yml 
+ 2030  history
+ 2031  history | grep kubectl
+ 2032  cat ~/.zsh_history
+ 2033  cat ~/.bash_history
+ 2034  history > my_commands.txt

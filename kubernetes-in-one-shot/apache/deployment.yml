@@ -1,0 +1,28 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: apache-deployment
+  namespace: apache
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: apache
+  template:
+    metadata:
+      labels:  # ✅ Use labels instead of name
+        app: apache
+    spec:  # ✅ Move spec inside template correctly
+      containers:
+      - name: apache
+        image: httpd:latest
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: 100m
+            memory: 128Mi  # ✅ Fix memory unit
+          limits:
+            cpu: 200m
+            memory: 256Mi  # ✅ Fix memory unit
+

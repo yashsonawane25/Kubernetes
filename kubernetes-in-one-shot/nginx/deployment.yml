@@ -11,7 +11,7 @@ spec:
 
   template:
     metadata:
-      labels:  
+      labels:
         app: nginx
 
     spec:
@@ -20,4 +20,20 @@ spec:
         image: nginx:latest
         ports:
         - containerPort: 80
+        resources:
+          requests:
+            cpu: 100m
+            memory: 128Mi
+          limits:
+            cpu: 200m
+            memory: 256Mi
+
+        volumeMounts:
+        - mountPath: /usr/share/nginx/html  # Fixed path for Nginx web root
+          name: my-volume
+          
+      volumes:
+      - name: my-volume
+        persistentVolumeClaim:
+          claimName: local-pvc
 
